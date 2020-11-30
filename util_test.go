@@ -10,3 +10,8 @@ func TestNewUT(t *testing.T) {
 		t.Fatalf("Expecting something else!")
 	}
 }
+
+func TestList_Insert(t *testing.T) {
+	link := List{}
+	link.Insert("Rolls")
+}
